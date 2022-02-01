@@ -23,7 +23,7 @@ body{
 }
 
 .image-container{
-    width: 40%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +34,7 @@ body{
     justify-content: center;
 }
 .image img{
-    width: 80%;
+    width: 50%;
 }
 
 /* ------------> section  */
@@ -45,6 +45,21 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.titulo{
+    color: rgb(16, 172, 37);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+.esferas-dragon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.esferas-dragon img{
+    width: 10%;
+}
 
 .play{
     display: flex;
@@ -53,28 +68,36 @@ body{
 }
 
 .carta{
-    width: 100%;
+    width: 60%;
     padding: 2%;
 
 }
 .esfera{
     border-radius: 20px;
-    transition:2s;
-    -webkit-transition:2s;
-    -moz-transition:2s;
-    -o-transition:2s;
-    -ms-transition:2s;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -o-transition: 2s;
+    -ms-transition: 2s;
 }
+
 .esfera img{
-    width: 100%;
+    width: 70%;
 }
 .rotate {
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
 }
+
+.button{
+    width: 100%;
+}
+/* .one{
+    background-color: rgb(110, 1, 1);
+} */
 
 
 
@@ -121,7 +144,7 @@ body{
     .image img{
         width: 100%;
     }
-}
+} 
 
 @media screen and (max-width: 320px) {
     body{
